@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main',
+                git branch: 'develop',
                     url: 'https://github.com/hafiz-syed-burhan/fiftyone.git'
             }
         }
